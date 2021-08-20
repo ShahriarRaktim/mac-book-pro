@@ -1,0 +1,17 @@
+#img{
+    max-width: 100%;  
+    height: auto;;
+}
+.cost{
+    margin-right: 450px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.233);
+}
+.total-cost{
+    border-bottom: 3px solid rgba(128, 128, 128, 0.918);
+}
+.promo{
+    width: 30%;
+}
+footer{
+    border-top: 2px solid rgba(128, 128, 128, 0.274);
+}
