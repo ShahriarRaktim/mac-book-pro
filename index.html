@@ -19,48 +19,48 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam reprehenderit neque magni aliquid! Incidunt, officia aut ipsum, asperiores quisquam exercitationem, soluta ipsa suscipit odit obcaecati consectetur eius amet provident vitae quam voluptatem ut voluptate illo ducimus quaerat culpa omnis possimus laboriosam? Aperiam velit sequi repellat asperiores magni, laudantium iusto facilis.</p>
                 <div class="pb-4">
                     <h4>Memory</h4>
-                    <button type="button" class="btn btn-info">8GB unifiled memory</button>
-                    <button type="button" class="btn btn-info">16GB unifiled memory</button>
+                    <button id="memory-8gb" type="button" class="btn btn-info">8GB unifiled memory</button>
+                    <button id="memory-16gb" type="button" class="btn btn-info">16GB unifiled memory</button>
                 </div>
                 <div class="pb-4">
                     <h4>Storage</h4>
-                    <button type="button" class="btn btn-info">256GB SSD storage</button>
-                    <button type="button" class="btn btn-info">512GB SSD storage</button>
-                    <button type="button" class="btn btn-info">1TB SSD storage</button>
+                    <button id="stroge-256gb" type="button" class="btn btn-info">256GB SSD storage</button>
+                    <button id="stroge-512gb" type="button" class="btn btn-info">512GB SSD storage</button>
+                    <button id="stroge-1tb" type="button" class="btn btn-info">1TB SSD storage</button>
                 </div>
                 <div class="pb-5">
-                    <h4>Choose your dellvery option</h4>
-                    <button type="button" class="btn btn-info">August 29 FREE Prime Dellvery</button>
-                    <button type="button" class="btn btn-info">August 23 Dellvery charge $20</button>
+                    <h4>Choose your delivery option</h4>
+                    <button id="late-delivary"  type="button" class="btn btn-info">August 29 FREE Prime Delivery</button>
+                    <button id="first-delivary" type="button" class="btn btn-info">August 23 Delivery charge $20</button>
                 </div>
                 <div class="cost">
                     <div class="d-flex justify-content-between">
-                        <h5>Best Price</h5>
-                        <h5>$1299</h5>
+                        <h5>Bese Price</h5>
+                        <h5>$<span id="base-price">1299</span></h5>
                     </div>
                 </div>
                 <div class="cost">
                     <div class="d-flex justify-content-between">
                         <h5>Extra Memory Cost</h5>
-                        <h5>$0</h5>
+                        <h5>$<span id="memory-cost">0</span></h5>
                     </div>
                 </div>
                 <div class="cost">
                     <div class="d-flex justify-content-between">
                         <h5>Extra Storage Cost</h5>
-                        <h5>$0</h5>
+                        <h5>$<span id="stroge-cost">0</span></h5>
                     </div>
                 </div>
                 <div class="cost total-cost">
                     <div class="d-flex justify-content-between">
                         <h5>Delivary charge</h5>
-                        <h5>$0</h5>
+                        <h5>$<span id="delivary-cost">0</span></h5>
                     </div>
                 </div>
                 <div class="cost">
                     <div class="d-flex justify-content-between">
                         <h5>Total Price</h5>
-                        <h5>$1299</h5>
+                        <h5>$ <span id="total-price">1299</span></h5>
                     </div>
                 </div>
                 <div class="promo mt-5">
@@ -74,7 +74,8 @@
             </div>
         </section>
     </main>
-    <footer class="container d-flex justify-content-center"><h1>Total:</h1><h1>$1299</h1></footer>
+    <footer class="container d-flex justify-content-center"><h1>Total:</h1><h1>$<span id="last-total">1299</span></h1></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="js/mac.js"></script>
 </body>
 </html>
