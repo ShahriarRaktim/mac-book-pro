@@ -61,5 +61,6 @@ document.getElementById('button-addon2').addEventListener('click', function () {
         const promoTotal = parseInt(lastTotalText)*0.8;
         lastTotal.innerText = promoTotal;
         input.value = '';
+        input.disabled = true;
     }
 })
