@@ -63,4 +63,7 @@ document.getElementById('button-addon2').addEventListener('click', function () {
         input.value = '';
         input.disabled = true;
     }
+    else{
+        input.value = 'wrong code';
+    }
 })
