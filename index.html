@@ -11,12 +11,17 @@
     <title>Document</title>
 </head>
 <body>
+                      <!-- -----Main Start----- -->
+
     <main class="container mt-5">
         <section class="d-flex">
             <div><img id="img" src="images/mac.png" alt=""></div>
             <div class="px-5">
                 <h1> Buy your costomize mack-book-pro</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam reprehenderit neque magni aliquid! Incidunt, officia aut ipsum, asperiores quisquam exercitationem, soluta ipsa suscipit odit obcaecati consectetur eius amet provident vitae quam voluptatem ut voluptate illo ducimus quaerat culpa omnis possimus laboriosam? Aperiam velit sequi repellat asperiores magni, laudantium iusto facilis.</p>
+
+                <!-- Extra cost button start  -->
+
                 <div class="pb-4">
                     <h4>Memory</h4>
                     <button id="memory-8gb" type="button" class="btn btn-info">8GB unifiled memory</button>
@@ -33,6 +38,9 @@
                     <button id="late-delivary"  type="button" class="btn btn-info">August 29 FREE Prime Delivery</button>
                     <button id="first-delivary" type="button" class="btn btn-info">August 23 Delivery charge $20</button>
                 </div>
+
+                <!-- Extra cost start  -->
+
                 <div class="cost">
                     <div class="d-flex justify-content-between">
                         <h5>Bese Price</h5>
@@ -57,16 +65,22 @@
                         <h5>$<span id="delivary-cost">0</span></h5>
                     </div>
                 </div>
+
+                <!-- Total price -->
+
                 <div class="cost">
                     <div class="d-flex justify-content-between">
                         <h5>Total Price</h5>
                         <h5>$ <span id="total-price">1299</span></h5>
                     </div>
                 </div>
+
+                <!-- Promo code start  -->
+
                 <div class="promo mt-5">
                         <h5>Add Promo Code</h5>
                         <div class="input-group mb-3 cost">
-                            <input type="text" class="form-control" placeholder="Type here" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <input id="input-promo" type="text" class="form-control" placeholder="Type here" aria-label="Recipient's username" aria-describedby="button-addon2">
                             <button class="btn btn-outline-secondary" type="button" id="button-addon2">Apply</button>
                           </div>
                     </div>
@@ -74,8 +88,15 @@
             </div>
         </section>
     </main>
+
+    <!-- footer start  -->
+
     <footer class="container d-flex justify-content-center"><h1>Total:</h1><h1>$<span id="last-total">1299</span></h1></footer>
+    
+    <!-- -----Bootstrap Script-----  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- ----My Script----- -->
     <script src="js/mac.js"></script>
 </body>
 </html>
